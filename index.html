@@ -2,10 +2,293 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Meine Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Meine persönliche Website und Projekte."
+  >
+
+  <title>Dein Name | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Hallo 👋</h1>
-  <p>Das ist meine erste GitHub.io Website.</p>
+
+  <header class="navbar">
+    <div class="container nav-content">
+
+      <a href="#" class="logo">
+        deinname<span>.</span>
+      </a>
+
+      <nav>
+        <a href="#about">Über mich</a>
+        <a href="#projects">Projekte</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="container hero-content">
+
+        <p class="eyebrow">Hallo, ich bin</p>
+
+        <h1>
+          Dein Name<span>.</span>
+        </h1>
+
+        <h2>
+          Developer · Creator · Technik-Enthusiast
+        </h2>
+
+        <p class="hero-text">
+          Willkommen auf meiner Website.
+          Hier findest du meine Projekte, Experimente und Dinge,
+          an denen ich gerade arbeite.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="button primary">
+            Projekte ansehen
+          </a>
+
+          <a
+            href="https://github.com/DEINUSERNAME"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button secondary"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ÜBER MICH -->
+    <section id="about" class="section">
+
+      <div class="container">
+
+        <p class="section-label">01 — Über mich</p>
+
+        <h2 class="section-title">
+          Wer ich bin
+        </h2>
+
+        <div class="about-grid">
+
+          <div>
+            <p>
+              Ich interessiere mich für Softwareentwicklung,
+              Web-Technologien und neue Ideen.
+            </p>
+
+            <p>
+              Auf dieser Seite sammle ich Projekte,
+              an denen ich gearbeitet habe oder gerade arbeite.
+            </p>
+          </div>
+
+          <div class="skills">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>Git</span>
+            <span>GitHub</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJEKTE -->
+    <section id="projects" class="section projects-section">
+
+      <div class="container">
+
+        <p class="section-label">02 — Projekte</p>
+
+        <h2 class="section-title">
+          Was ich baue
+        </h2>
+
+        <div class="project-grid">
+
+          <article class="project-card">
+
+            <div class="project-number">
+              01
+            </div>
+
+            <h3>Projekt Alpha</h3>
+
+            <p>
+              Eine kurze Beschreibung deines Projekts.
+              Erkläre, was es macht und welche Technologien
+              du verwendet hast.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+
+            <a
+              href="https://github.com/DEINUSERNAME"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Projekt ansehen →
+            </a>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-number">
+              02
+            </div>
+
+            <h3>Projekt Beta</h3>
+
+            <p>
+              Hier kannst du dein zweites Projekt präsentieren.
+              Zum Beispiel eine App, ein Tool oder ein Experiment.
+            </p>
+
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>API</span>
+            </div>
+
+            <a
+              href="https://github.com/DEINUSERNAME"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Projekt ansehen →
+            </a>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-number">
+              03
+            </div>
+
+            <h3>Projekt Gamma</h3>
+
+            <p>
+              Noch ein interessantes Projekt.
+              Ersetze diesen Text einfach durch deine eigene
+              Beschreibung.
+            </p>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>GitHub</span>
+            </div>
+
+            <a
+              href="https://github.com/DEINUSERNAME"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Projekt ansehen →
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- KONTAKT -->
+    <section id="contact" class="section contact-section">
+
+      <div class="container contact">
+
+        <p class="section-label">
+          03 — Kontakt
+        </p>
+
+        <h2>
+          Lust auf ein Projekt?
+        </h2>
+
+        <p>
+          Du kannst mich über GitHub erreichen
+          oder mir eine E-Mail schreiben.
+        </p>
+
+        <div class="contact-buttons">
+
+          <a
+            href="mailto:deine@email.de"
+            class="button primary"
+          >
+            E-Mail schreiben
+          </a>
+
+          <a
+            href="https://github.com/DEINUSERNAME"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button secondary"
+          >
+            GitHub-Profil
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div class="container footer-content">
+
+      <p>
+        © 2026 Dein Name
+      </p>
+
+      <p>
+        Gebaut mit HTML & CSS.
+      </p>
+
+    </div>
+
+  </footer>
+
 </body>
 </html>
